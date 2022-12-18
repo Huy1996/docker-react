@@ -3,11 +3,11 @@ import App from './App';
 
 test('renders learn react link', () => {
   render(<App />);
-  const linkElement = screen.getByText(/Nice/i);
+  const linkElement = screen.getByText(/I was changed on the feature brach/i);
   expect(linkElement).toBeInTheDocument();
 });
 test('renders learn react link', () => {
   render(<App />);
-  const linkElement = screen.getByText(/Nice/i);
+  const linkElement = screen.getByText(/I was changed on the feature brach/i);
   expect(linkElement).toBeInTheDocument();
 });
